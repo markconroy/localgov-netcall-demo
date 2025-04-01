@@ -1,0 +1,22 @@
+uuid: 36ca4330-1060-4917-84ed-84d4943db5e9
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_services_page
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: wv9PS2Aoyqot66Q61-wRfhbRUnXVHoUSBBVrCeZiP1c
+id: netcall_demo_localgov_servicepagerelatedlinks_scarfolk
+theme: netcall_demo
+region: sidebar_second
+weight: 0
+provider: null
+plugin: localgov_services_related_links_block
+settings:
+  id: localgov_services_related_links_block
+  label: 'Service page related links'
+  label_display: '0'
+  provider: localgov_services_page
+visibility: {  }

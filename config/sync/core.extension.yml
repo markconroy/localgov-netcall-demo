@@ -120,6 +120,7 @@ module:
   menu_ui: 0
   metatag: 0
   mysql: 0
+  netcall_converse_queue_data: 0
   node: 0
   office_hours: 0
   options: 0
@@ -166,4 +167,5 @@ theme:
   gin: 0
   localgov_base: 0
   localgov_scarfolk: 0
+  netcall_demo: 0
 profile: localgov

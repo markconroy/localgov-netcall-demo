@@ -1,0 +1,22 @@
+uuid: 98a0a6b8-123c-48f9-b2ba-7f42227a04f0
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_core
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: f0iKCYeeRkvUMJ87FM2sOkHWRyk74xQsanz5TniJSG8
+id: netcall_demo_localgov_page_header_block_scarfolk
+theme: netcall_demo
+region: content_top
+weight: -10
+provider: null
+plugin: localgov_page_header_block
+settings:
+  id: localgov_page_header_block
+  label: 'Page header block'
+  label_display: '0'
+  provider: localgov_core
+visibility: {  }

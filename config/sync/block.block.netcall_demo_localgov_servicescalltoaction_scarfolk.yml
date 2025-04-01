@@ -1,0 +1,22 @@
+uuid: 012f1e7e-dfd7-4e01-8df9-b3a63b7c3a92
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_services
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: cGQX48mjw70XY9gxwrTgcrYtPnq2iAIPiqUVk5t5Otg
+id: netcall_demo_localgov_servicescalltoaction_scarfolk
+theme: netcall_demo
+region: content_top
+weight: 1
+provider: null
+plugin: localgov_service_cta_block
+settings:
+  id: localgov_service_cta_block
+  label: 'Services call to action'
+  label_display: '0'
+  provider: localgov_services
+visibility: {  }

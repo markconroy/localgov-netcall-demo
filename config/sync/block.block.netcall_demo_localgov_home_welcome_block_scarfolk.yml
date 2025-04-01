@@ -1,0 +1,28 @@
+uuid: 446a54ae-080a-40b5-8d88-bbdfe9559552
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov
+    - system
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: G3wwIAYo1fyw5qaQywazqr-r0a6zdt08kvzHhgCYTVs
+id: netcall_demo_localgov_home_welcome_block_scarfolk
+theme: netcall_demo
+region: disabled
+weight: 0
+provider: null
+plugin: localgov_home_welcome_block
+settings:
+  id: localgov_home_welcome_block
+  label: 'Home welcome block'
+  label_display: '0'
+  provider: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '<front>'

@@ -1,0 +1,23 @@
+uuid: 61a8e706-53c9-431b-867e-2555ff88c472
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_guides
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: ZD_xDoG_G8z8mKXXpdWdnLh-z_jd_961NtJ0-fXs_c0
+id: netcall_demo_localgov_guides_prev_next_block_scarfolk
+theme: netcall_demo
+region: content_bottom
+weight: -6
+provider: null
+plugin: localgov_guides_prev_next_block
+settings:
+  id: localgov_guides_prev_next_block
+  label: 'Guides prev next block'
+  label_display: '0'
+  provider: localgov_guides
+  show_title: true
+visibility: {  }

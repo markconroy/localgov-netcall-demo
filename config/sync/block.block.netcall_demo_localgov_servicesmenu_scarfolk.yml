@@ -1,0 +1,27 @@
+uuid: d7bf31f7-368b-4be9-bb07-d8bb6217812c
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - system.menu.localgov_services_menu
+  module:
+    - system
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: ktIjCIva-IVWOE3So6VaszYRegx4N9LlONs2FVGp3do
+id: netcall_demo_localgov_servicesmenu_scarfolk
+theme: netcall_demo
+region: secondary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:localgov_services_menu'
+settings:
+  id: 'system_menu_block:localgov_services_menu'
+  label: 'Services menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

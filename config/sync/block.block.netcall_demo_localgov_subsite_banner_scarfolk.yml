@@ -1,0 +1,24 @@
+uuid: 94b9a6c6-0163-4b19-a490-bb73fc25c229
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_subsites
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: Jr3czF44B5B-KsLZ4z7mqCtfroGwlbRRLZglQV6Xd0c
+id: netcall_demo_localgov_subsite_banner_scarfolk
+theme: netcall_demo
+region: banner
+weight: 0
+provider: null
+plugin: localgov_subsite_banner
+settings:
+  id: localgov_subsite_banner
+  label: 'Subsite banner'
+  label_display: '0'
+  provider: localgov_subsites
+  context_mapping:
+    node: '@node.node_route_context:node'
+visibility: {  }

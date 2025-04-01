@@ -1,0 +1,22 @@
+uuid: ad0010c4-94d9-4761-b3b9-4a89ec5bef6e
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_search
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: JoaPjqtHO4LkjJZwk13yGbqxhzg7fmFiv2tgOdNJ4r8
+id: netcall_demo_localgov_sitewide_search_block_scarfolk
+theme: netcall_demo
+region: search
+weight: -16
+provider: null
+plugin: localgov_sitewide_search_block
+settings:
+  id: broken
+  label: 'Sitewide search block'
+  label_display: '0'
+  provider: localgov_search
+visibility: {  }

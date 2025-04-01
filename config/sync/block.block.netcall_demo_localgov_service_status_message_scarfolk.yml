@@ -1,0 +1,22 @@
+uuid: 50a01491-08e0-4475-b09c-1f17a3a71764
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_services_status
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: m4ROUzpnDZbjZscfBsR8oJWWzhZFJwJR1t40bCePzlI
+id: netcall_demo_localgov_service_status_message_scarfolk
+theme: netcall_demo
+region: content_top
+weight: 1
+provider: null
+plugin: localgov_service_status_message
+settings:
+  id: service_status_message
+  label: 'Service status message'
+  label_display: '0'
+  provider: localgov_services_status
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 37612b13-419c-4d37-a082-62e193c70e22
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - facets.facet.localgov_events_locality
+  module:
+    - facets
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: iatla0CCdT9j-CTVRAfeEKXwohMHry-x4-azc0iesyQ
+id: netcall_demo_localgov_events_neighbourhood_scarfolk
+theme: netcall_demo
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'facet_block:localgov_events_locality'
+settings:
+  id: 'facet_block:localgov_events_locality'
+  label: 'Events neighbourhood'
+  label_display: '0'
+  provider: facets
+  block_id: localgov_events_neighbourhood
+visibility: {  }

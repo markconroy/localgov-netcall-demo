@@ -48,3 +48,5 @@ drush-backups
 
 # Ignore backstop files
 backstop_data/
+
+/config/sync/netcall_converse_queue_data*

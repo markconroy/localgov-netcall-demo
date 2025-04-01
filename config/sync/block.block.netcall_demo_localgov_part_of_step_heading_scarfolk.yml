@@ -1,0 +1,22 @@
+uuid: 4e6ea971-eb98-4e5d-9c95-b7839ee5c2d8
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_step_by_step
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: jfJ2x2-k-K8Yg1_sdXfXxEaxq2HODqH4b0oxN3IwkUc
+id: netcall_demo_localgov_part_of_step_heading_scarfolk
+theme: netcall_demo
+region: content
+weight: -8
+provider: null
+plugin: step_part_of_block
+settings:
+  id: step_part_of_block
+  label: 'Part of step heading'
+  label_display: '0'
+  provider: localgov_step_by_step
+visibility: {  }

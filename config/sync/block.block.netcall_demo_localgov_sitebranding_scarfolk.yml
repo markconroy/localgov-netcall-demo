@@ -1,0 +1,25 @@
+uuid: 575882ba-4929-4619-996d-fa891738a672
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: WOE_zR7p0ezLQ1hycQH7E2EYgfUDEQuzmCF9fxR6-ZI
+id: netcall_demo_localgov_sitebranding_scarfolk
+theme: netcall_demo
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

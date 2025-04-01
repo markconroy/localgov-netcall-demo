@@ -1,0 +1,31 @@
+uuid: 9f7940ba-b4f6-4a89-9b3a-56fde7e0c6f2
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - facets.facet.localgov_news_category
+  module:
+    - facets
+    - system
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: aCGODMuIsJl3ZjGSYh2br8HJA2Fsk_ILYLJ9IwxFusM
+id: netcall_demo_localgov_news_category
+theme: netcall_demo
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'facet_block:localgov_news_category'
+settings:
+  id: 'facet_block:localgov_news_category'
+  label: Category
+  label_display: '0'
+  provider: facets
+  block_id: localgov_news_category
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '/news/*'

@@ -1,0 +1,27 @@
+uuid: 17d62d6c-3573-47a3-b6da-54231d7ebf8b
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: wTuUnaKnGKQiwFQ9bz_B1kDs3FfXc_ujSdtvk4tF88g
+id: netcall_demo_localgov_mainnavigation_scarfolk
+theme: netcall_demo
+region: primary_menu
+weight: -1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

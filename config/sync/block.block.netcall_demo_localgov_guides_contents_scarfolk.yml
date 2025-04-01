@@ -1,0 +1,22 @@
+uuid: df401a87-6b43-4f5f-b00d-b81cfff69089
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_guides
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: oO8_m_WuAI9i93mB-0KvufB1MzRb4LdQaR5_dRZv4kg
+id: netcall_demo_localgov_guides_contents_scarfolk
+theme: netcall_demo
+region: content_top
+weight: 0
+provider: null
+plugin: localgov_guides_contents
+settings:
+  id: localgov_guides_contents
+  label: 'Guide contents'
+  label_display: '0'
+  provider: localgov_guides
+visibility: {  }

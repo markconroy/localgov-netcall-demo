@@ -1,0 +1,23 @@
+uuid: d47f9747-8613-4c02-a407-09bd4e63fd0e
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - localgov_alert_banner
+  theme:
+    - netcall_demo
+_core:
+  default_config_hash: 4yunDTSAVrhKT9QpLfEJQhkTmQ-E7uPYESr91mtxREE
+id: netcall_demo_localgov_alert_banner_scarfolk
+theme: netcall_demo
+region: banner
+weight: -100
+provider: null
+plugin: localgov_alert_banner_block
+settings:
+  id: localgov_alert_banner
+  label: 'Alert banner'
+  label_display: '0'
+  provider: localgov_alert_banner
+  include_types: {  }
+visibility: {  }
