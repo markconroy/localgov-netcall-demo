@@ -1,0 +1,22 @@
+uuid: 2cef96df-558f-42c6-a74a-bf83f134e23b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stable9
+_core:
+  default_config_hash: xjT-PMJ_X0d1hz-hW2RTS2HI58Nv1lAvwxx7MPSs9-4
+id: stable9_localgov_mainpagecontent_scarfolk
+theme: stable9
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

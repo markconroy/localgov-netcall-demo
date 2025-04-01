@@ -1,0 +1,6 @@
+netcall_converse_queue_data.settings:
+  title: 'NetCall Converse Queue Data Settings'
+  description: 'Configure the API key for NetCall Converse Queue Data.'
+  parent: system.admin_config_services
+  route_name: netcall_converse_queue_data.settings
+  weight: 10

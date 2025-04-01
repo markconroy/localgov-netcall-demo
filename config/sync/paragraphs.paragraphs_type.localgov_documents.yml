@@ -1,0 +1,12 @@
+uuid: 720fa19f-db3d-4eb9-8802-e036171da9cc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wss5SCcDyxBt_9KZtnoQa18qCZvLcRfcatehaPn5uMM
+id: localgov_documents
+label: Documents
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

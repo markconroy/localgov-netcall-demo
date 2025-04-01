@@ -1,0 +1,30 @@
+netcall_converse_queue_data.listing:
+  path: '/admin/content/netcall/converse-queue'
+  defaults:
+    _controller: '\Drupal\netcall_converse_queue_data\Controller\NetCallConverseQueueDataController::listing'
+    _title: 'NetCall Converse Queue Data Listing'
+  requirements:
+    _permission: 'access content overview'
+  options:
+    _admin_route: TRUE
+
+netcall_converse_queue_data.trends:
+  path: '/admin/content/netcall/converse-queue/trends'
+  defaults:
+    _controller: '\Drupal\netcall_converse_queue_data\Controller\NetCallConverseQueueDataController::trends'
+    _title: 'NetCall Converse Queue Data Trends'
+  requirements:
+    _permission: 'access content overview'
+  options:
+    _admin_route: TRUE
+
+netcall_converse_queue_data.settings:
+  path: '/admin/config/web-services/netcall/converse-queue-data/settings'
+  defaults:
+    _form: '\Drupal\netcall_converse_queue_data\Form\NetcallConverseQueueDataSettingsForm'
+    _title: 'NetCall Converse Queue Data Settings'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+

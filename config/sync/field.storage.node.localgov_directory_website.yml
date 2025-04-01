@@ -1,0 +1,21 @@
+uuid: fbf2fdfb-435d-4d39-8fe6-c8893dfa42ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: 6Msq4vx1N_UJkVhwfEEEuToXu-x8gSU5oA3jmFBVnvQ
+id: node.localgov_directory_website
+field_name: localgov_directory_website
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

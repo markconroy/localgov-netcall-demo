@@ -1,0 +1,5 @@
+name: 'NetCall Converse Queue Data'
+type: module
+description: 'Creates a listing of content coming from a Netcall Converse queue.'
+core_version_requirement: ^10 || ^11
+package: Custom

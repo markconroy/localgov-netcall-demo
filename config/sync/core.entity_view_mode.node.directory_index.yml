@@ -1,0 +1,13 @@
+uuid: 00079124-c35f-4803-a287-348b870362a7
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JjGLeSBcEFJlRSSlReJ_0h1mPAu7IRJB8zjTydlt6sQ
+id: node.directory_index
+label: 'Directory search index'
+description: ''
+targetEntityType: node
+cache: true

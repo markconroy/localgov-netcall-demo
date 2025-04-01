@@ -1,0 +1,9 @@
+.netcall-converse-queue-data-table > * > tr > td:nth-child(1) {
+  position: sticky;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.netcall-converse-queue-data-table > * > tr:hover > td:nth-child(1) {
+  background-color: #f2f6fe;
+}

@@ -1,0 +1,21 @@
+uuid: 23cd73b1-7a2c-48d4-84dd-d2bce7505101
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: NTsP5o_5e2LYTFdfUb-74UaEcFR0sznUdGLB7NnSd6o
+id: node.localgov_common_tasks
+field_name: localgov_common_tasks
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 6
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

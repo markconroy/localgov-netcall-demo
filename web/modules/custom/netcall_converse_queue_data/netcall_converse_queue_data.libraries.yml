@@ -1,0 +1,4 @@
+netcall-converse-queue-data:
+  css:
+    theme:
+      css/netcall-converse-queue-data.css: {}

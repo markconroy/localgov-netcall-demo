@@ -1,0 +1,87 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for NetCall Converse Queue Data module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function netcall_converse_queue_data_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.netcall_converse_queue_data':
+      return '<p>' . t('Fetches data from an external source as CSV and creates a listing.') . '</p>';
+  }
+}
+
+/**
+ * Fetch data from external source.
+ */
+function netcall_converse_queue_data_fetch_data() {
+  $url = 'https://api.netcall.com/data.csv';
+
+  // Use this line for local testing for now.
+  $local_url = DRUPAL_ROOT . '/modules/custom/netcall_converse_queue_data/tmp-data/data.csv';
+
+  if (file_exists($local_url)) {
+    $csv = file_get_contents($local_url);
+  } else {
+    $client = \Drupal::httpClient();
+    $response = $client->get($url);
+    $csv = $response->getBody()->getContents();
+  }
+
+  $data = [];
+  $rows = str_getcsv($csv, "\n");
+  $header = str_getcsv(array_shift($rows));
+
+  foreach ($rows as $row) {
+    $data[] = array_combine($header, str_getcsv($row));
+  }
+
+  return $data;
+}
+
+/**
+ * Fetch data from the Netcall Converse endpoint.
+ */
+function netcall_converse_queue_data_fetch_data_trends() {
+  $config = \Drupal::config('netcall_converse_queue_data.settings');
+  $auth_token = $config->get('api_key');
+  $api_url = $config->get('api_url');
+
+  if (empty($auth_token)) {
+    \Drupal::logger('netcall_converse_queue_data')->error('Authorization token is not configured.');
+    return [];
+  }
+
+  if (empty($api_url)) {
+    \Drupal::logger('netcall_converse_queue_data')->error('API Endpoint URL is not configured.');
+    return [];
+  }
+
+  try {
+    $client = \Drupal::httpClient();
+    $response = $client->get($api_url, [
+      'headers' => [
+        'Authorization' => $auth_token,
+        'Accept' => 'application/json',
+      ],
+    ]);
+    return json_decode($response->getBody()->getContents(), TRUE);
+  }
+  catch (\GuzzleHttp\Exception\ClientException $e) {
+    \Drupal::logger('netcall_converse_queue_data')->error('Client error: @message', ['@message' => $e->getMessage()]);
+  }
+  catch (\GuzzleHttp\Exception\RequestException $e) {
+    \Drupal::logger('netcall_converse_queue_data')->error('Request error: @message', ['@message' => $e->getMessage()]);
+  }
+  catch (Exception $e) {
+    \Drupal::logger('netcall_converse_queue_data')->error('Unexpected error: @message', ['@message' => $e->getMessage()]);
+  }
+
+  return [];
+}

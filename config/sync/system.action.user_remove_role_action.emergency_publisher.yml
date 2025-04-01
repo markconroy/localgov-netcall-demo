@@ -1,0 +1,14 @@
+uuid: cdf8ca42-fa5f-45e8-aefd-f6092c7c95cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.emergency_publisher
+  module:
+    - user
+id: user_remove_role_action.emergency_publisher
+label: 'Remove the Emergency publisher role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: emergency_publisher

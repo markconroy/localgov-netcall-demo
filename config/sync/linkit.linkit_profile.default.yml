@@ -1,0 +1,41 @@
+uuid: f9f36800-5a84-4ab7-b9b2-907a980514bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - paragraphs_library
+_core:
+  default_config_hash: S7ROeLA3vIwOFMHdJksBWTkFO6ImBM2hpkyVMZMrv2c
+label: Default
+id: default
+description: 'A default Linkit profile'
+matchers:
+  556010a3-e317-48b3-b4ed-854c10f4b950:
+    id: 'entity:node'
+    uuid: 556010a3-e317-48b3-b4ed-854c10f4b950
+    settings:
+      metadata: ''
+      bundles: {  }
+      group_by_bundle: true
+      substitution_type: canonical
+      limit: 100
+      include_unpublished: false
+    weight: 0
+  c3257417-fce9-4307-8251-58672edf88be:
+    id: email
+    uuid: c3257417-fce9-4307-8251-58672edf88be
+    settings: {  }
+    weight: 0
+  e7b9db02-d87d-4075-81ea-b8b622d1b5ea:
+    id: 'entity:paragraphs_library_item'
+    uuid: e7b9db02-d87d-4075-81ea-b8b622d1b5ea
+    settings:
+      metadata: ''
+      bundles:
+        localgov_contact: localgov_contact
+        localgov_link: localgov_link
+      group_by_bundle: true
+      substitution_type: paragraphs_library_item_localgovdrupal
+      limit: 20
+    weight: 0

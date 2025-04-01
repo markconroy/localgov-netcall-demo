@@ -1,0 +1,5 @@
+netcall_converse_queue_data.listing:
+  route_name: netcall_converse_queue_data.listing
+  title: 'Converse Queue'
+  base_route: system.admin_content
+  weight: 100
