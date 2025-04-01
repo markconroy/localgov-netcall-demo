@@ -1,5 +1,5 @@
-uuid: 80d88d52-8eac-4479-8c7e-f40fc19e1310
-langcode: en
+uuid: 7e922ea0-6420-430a-b50c-03ead176ac67
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -71,6 +71,7 @@ content:
         minZoom: 1
         maxZoom: 18
         zoomFiner: 0
+      weight: null
       icon:
         iconType: marker
         iconUrl: ''
@@ -105,6 +106,7 @@ content:
       geocoder:
         control: false
         settings:
+          popup: false
           position: topright
           input_size: 25
           providers:
@@ -126,9 +128,7 @@ content:
           min_terms: 4
           delay: 800
           zoom: 16
-          popup: false
           options: ''
-      weight: null
     third_party_settings: {  }
     weight: 0
     region: content
@@ -141,4 +141,5 @@ content:
     region: content
 hidden:
   external_id: true
+  langcode: true
   status: true

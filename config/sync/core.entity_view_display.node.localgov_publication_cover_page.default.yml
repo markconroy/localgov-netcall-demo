@@ -1,5 +1,5 @@
-uuid: cba53eab-6199-4024-9136-3e41f40d829f
-langcode: en
+uuid: 0c92c481-46e6-4541-9999-65fe56722e7f
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -82,6 +82,7 @@ content:
     region: content
 hidden:
   body: true
+  langcode: true
   localgov_publications_banner: true
   localgov_published_date: true
   localgov_updated_date: true

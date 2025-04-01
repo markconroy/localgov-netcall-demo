@@ -1,5 +1,5 @@
-uuid: 75f74fd0-8821-46f7-8e33-3525ad79c9ce
-langcode: en
+uuid: a8637dca-7b74-48e1-be24-4c921b8d5140
+langcode: en-gb
 status: true
 dependencies:
   module:
@@ -13,12 +13,12 @@ pattern: '[node:title]'
 selection_criteria:
   b7733dd9-c007-410f-94cb-896af2a94006:
     id: 'entity_bundle:node'
-    bundles:
-      localgov_subsites_overview: localgov_subsites_overview
     negate: false
+    uuid: b7733dd9-c007-410f-94cb-896af2a94006
     context_mapping:
       node: node
-    uuid: b7733dd9-c007-410f-94cb-896af2a94006
+    bundles:
+      localgov_subsites_overview: localgov_subsites_overview
 selection_logic: and
 weight: -5
 relationships: {  }

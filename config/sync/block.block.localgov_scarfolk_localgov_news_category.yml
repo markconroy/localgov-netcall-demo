@@ -1,5 +1,5 @@
-uuid: c2dad791-18f9-4acb-881c-8051ec2cf363
-langcode: en
+uuid: 8d36b35f-4445-47a1-bedd-dfa8bf6f0fba
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '/news/*'
     negate: false
     context_mapping: {  }
+    pages: '/news/*'

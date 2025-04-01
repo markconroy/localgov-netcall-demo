@@ -1,5 +1,5 @@
-uuid: f9f36800-5a84-4ab7-b9b2-907a980514bf
-langcode: en
+uuid: 03e2d2ae-7aa2-4e2b-98c4-719e1a64cf37
+langcode: en-gb
 status: true
 dependencies:
   module:
@@ -27,9 +27,9 @@ matchers:
     uuid: c3257417-fce9-4307-8251-58672edf88be
     settings: {  }
     weight: 0
-  e7b9db02-d87d-4075-81ea-b8b622d1b5ea:
+  807c0105-cf10-4c41-9ae6-6b6ba3aa228a:
     id: 'entity:paragraphs_library_item'
-    uuid: e7b9db02-d87d-4075-81ea-b8b622d1b5ea
+    uuid: 807c0105-cf10-4c41-9ae6-6b6ba3aa228a
     settings:
       metadata: ''
       bundles:

@@ -1,4 +1,4 @@
-uuid: c470a5ee-2a92-472b-96be-23d863543cf9
+uuid: 2c5cd691-fcba-4077-a10e-934e52a4ab22
 langcode: en
 status: true
 dependencies:
@@ -28,5 +28,6 @@ content:
     region: content
 hidden:
   body: true
+  langcode: true
   links: true
   localgov_services_parent: true

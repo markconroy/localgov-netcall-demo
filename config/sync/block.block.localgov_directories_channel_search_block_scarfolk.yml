@@ -1,5 +1,5 @@
-uuid: 499a58fc-91d3-4bae-bd98-e26368e71500
-langcode: en
+uuid: 446ab0fc-58e3-486b-a1e0-09e7a50d997d
+langcode: en-gb
 status: true
 dependencies:
   module:
@@ -25,8 +25,8 @@ settings:
 visibility:
   node_type:
     id: 'entity_bundle:node'
-    bundles:
-      localgov_directory: localgov_directory
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'
+    bundles:
+      localgov_directory: localgov_directory

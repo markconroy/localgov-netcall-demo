@@ -1,4 +1,4 @@
-uuid: f4d701e5-9470-485f-b4f2-5c59cbef1752
+uuid: 67012e76-4dd7-457d-b491-94f350213827
 langcode: en
 status: true
 dependencies:
@@ -42,6 +42,13 @@ content:
       warn_multiple_usages: true
       show_crop_area: false
       show_default_crop: true
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   name:
     type: string_textfield

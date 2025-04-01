@@ -1,4 +1,4 @@
-uuid: cd67ab78-45b7-4234-b0de-4a9985a5d2e2
+uuid: 03323821-3b3a-4817-8f88-6185592c5e4e
 langcode: en
 status: true
 dependencies:
@@ -45,6 +45,7 @@ content:
       link: true
     third_party_settings: {  }
 hidden:
+  langcode: true
   links: true
   localgov_service_status_on_landi: true
   localgov_service_status_on_list: true

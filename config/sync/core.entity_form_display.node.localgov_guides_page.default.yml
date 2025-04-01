@@ -1,4 +1,4 @@
-uuid: d29c8582-1e5a-41bf-9e4f-36ee3d8e6a44
+uuid: 2c9d747a-a952-448a-ae73-0a771856bafc
 langcode: en
 status: true
 dependencies:
@@ -32,6 +32,13 @@ content:
     weight: 5
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   localgov_guides_parent:
     type: entity_reference_autocomplete

@@ -1,5 +1,5 @@
-uuid: 2dcbe86e-8daa-4ea9-b876-fd8989f9841f
-langcode: en
+uuid: 75e74762-7183-474a-91c0-5c683dbdb4b8
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -61,6 +61,7 @@ content:
     weight: 0
     region: content
 hidden:
+  langcode: true
   links: true
   localgov_event_call_to_action: true
   localgov_event_categories: true

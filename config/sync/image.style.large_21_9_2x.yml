@@ -1,5 +1,5 @@
-uuid: 289ef663-5315-44b8-be3c-fb73d7d9e5e4
-langcode: en
+uuid: c2c2695c-f75f-448d-8aae-d208bf2fed9c
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -16,9 +16,9 @@ effects:
     id: image_scale_and_crop
     weight: -9
     data:
-      anchor: center-center
       width: 2880
       height: 1240
+      anchor: center-center
   fc3d68ba-e69d-4939-a76f-800c2c5f978b:
     uuid: fc3d68ba-e69d-4939-a76f-800c2c5f978b
     id: crop_crop

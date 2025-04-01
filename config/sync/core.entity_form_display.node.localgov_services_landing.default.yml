@@ -1,5 +1,5 @@
-uuid: 9322a18a-2e44-4811-a230-8f4afc0a2b2d
-langcode: en
+uuid: 6997d3c8-889e-4eac-a6fe-d6f5a599a9a1
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -175,6 +175,13 @@ content:
     weight: 3
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   localgov_address:
     type: text_textarea

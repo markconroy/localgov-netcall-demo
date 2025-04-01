@@ -1,4 +1,4 @@
-uuid: 853b9787-1b1f-4a67-a775-fcc65207f53e
+uuid: 5c3a2a1f-dadf-44e3-8edc-cfaacb814416
 langcode: en
 status: true
 dependencies:
@@ -25,6 +25,7 @@ content:
     region: content
 hidden:
   body: true
+  langcode: true
   links: true
   localgov_step_parent: true
   localgov_step_section_title: true

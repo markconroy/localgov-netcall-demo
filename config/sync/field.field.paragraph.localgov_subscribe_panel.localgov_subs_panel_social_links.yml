@@ -1,5 +1,5 @@
-uuid: 44df91f5-babb-44e7-b92f-27eb21ab3951
-langcode: en
+uuid: 511bcab9-6dc8-4ccc-bd8a-b36fe30900c6
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -23,9 +23,9 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       localgov_labelled_icon: localgov_labelled_icon
+    negate: 0
     target_bundles_drag_drop:
       from_library:
         weight: 17
@@ -49,8 +49,8 @@ settings:
         weight: 23
         enabled: false
       localgov_labelled_icon:
-        enabled: true
         weight: 24
+        enabled: true
       localgov_link:
         weight: 25
         enabled: false

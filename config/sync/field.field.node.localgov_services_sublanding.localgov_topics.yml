@@ -1,5 +1,5 @@
-uuid: 843c0de6-b65e-47c7-9093-6eb5269750da
-langcode: en
+uuid: 03dd218c-ccc8-4888-a141-793d477c46e8
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -23,14 +23,14 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       topic_list_builder: topic_list_builder
+    negate: 0
     target_bundles_drag_drop:
       advanced_links:
         weight: 3
         enabled: false
       topic_list_builder:
-        enabled: true
         weight: 4
+        enabled: true
 field_type: entity_reference_revisions

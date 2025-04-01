@@ -1,4 +1,4 @@
-uuid: ac4951a8-b5f9-493a-bcf9-9ab958d818cc
+uuid: 281e706b-1764-406f-8e9c-5cefa0e5a81e
 langcode: en
 status: true
 dependencies:
@@ -50,6 +50,7 @@ content:
     third_party_settings: {  }
 hidden:
   content_moderation_control: true
+  langcode: true
   type_of_alert: true
   uid: true
   visibility: true

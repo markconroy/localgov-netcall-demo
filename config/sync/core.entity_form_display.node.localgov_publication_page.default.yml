@@ -1,4 +1,4 @@
-uuid: 623f304f-5517-496e-bb01-d646b109e8ef
+uuid: e4ad823e-ec2b-45aa-a932-b4da72531894
 langcode: en
 status: true
 dependencies:
@@ -23,6 +23,13 @@ content:
     weight: 2
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   localgov_publication_content:
     type: layout_paragraphs

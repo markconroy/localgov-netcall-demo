@@ -1,5 +1,5 @@
-uuid: 4fc6ebe3-b139-4fb7-8da1-201670f85553
-langcode: en
+uuid: 606e297b-27b7-400b-9e38-5023df67fc6b
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /events/search
     negate: false
     context_mapping: {  }
+    pages: /events/search

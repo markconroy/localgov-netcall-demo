@@ -1,4 +1,4 @@
-uuid: 41ef4ff3-47ae-4355-aebb-ba6450e0fa70
+uuid: c8196470-c1a5-45ed-b84e-297f3a796c12
 langcode: en
 status: true
 dependencies:
@@ -120,6 +120,7 @@ content:
     type: entity_reference_entity_view
     region: content
 hidden:
+  langcode: true
   links: true
   localgov_directory_facets_select: true
   localgov_directory_search: true

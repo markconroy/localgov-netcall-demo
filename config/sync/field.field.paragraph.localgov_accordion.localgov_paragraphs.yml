@@ -1,5 +1,5 @@
-uuid: 24b54865-cbc7-4b6e-91bd-5ab8257cb662
-langcode: en
+uuid: 110f1d6a-9003-4d75-953d-a4f6f2089791
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -23,9 +23,9 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       localgov_accordion_pane: localgov_accordion_pane
+    negate: 0
     target_bundles_drag_drop:
       from_library:
         weight: 16
@@ -34,8 +34,8 @@ settings:
         weight: 17
         enabled: false
       localgov_accordion_pane:
-        enabled: true
         weight: 18
+        enabled: true
       localgov_box_link:
         weight: 19
         enabled: false

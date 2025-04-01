@@ -1,5 +1,5 @@
-uuid: a7cabbe5-b724-44ca-b02c-57d7bdbd308b
-langcode: en
+uuid: 5d8ffd62-a79b-40e5-a375-f27fd0cb405b
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -20,10 +20,10 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
+  handler: 'default:file'
+  handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'kml gpx wkt json geojson'
   max_filesize: ''
   description_field: false
-  handler: 'default:file'
-  handler_settings: {  }
 field_type: file

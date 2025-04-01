@@ -1,4 +1,4 @@
-uuid: a0c2358a-78e2-4704-a4c1-e8f07add5e60
+uuid: 012ee23c-4c59-4b28-ba9f-d5eb12bdbe30
 langcode: en
 status: true
 dependencies:
@@ -32,6 +32,7 @@ hidden:
   body: true
   content_moderation_control: true
   field_media_image: true
+  langcode: true
   links: true
   localgov_news_categories: true
   localgov_news_date: true

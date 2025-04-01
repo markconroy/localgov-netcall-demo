@@ -1,5 +1,5 @@
-uuid: f5993463-dff8-49ec-81b6-9824ee36bb3e
-langcode: en
+uuid: 66fedb5a-e82d-4b9d-901a-50a3d0db87b0
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -13,9 +13,9 @@ id: square
 label: Square
 image_style_mappings:
   -
-    breakpoint_id: localgov_media.bootstrap4_md_768px
-    multiplier: 1x
     image_mapping_type: image_style
     image_mapping: square_large
+    breakpoint_id: localgov_media.bootstrap4_md_768px
+    multiplier: 1x
 breakpoint_group: localgov_media
 fallback_image_style: square_medium

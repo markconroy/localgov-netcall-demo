@@ -1,4 +1,4 @@
-uuid: 5fe76e46-d8f2-4847-a5f0-5ef261c04452
+uuid: c5b14b32-1ddd-4393-89d3-284d8bb179d5
 langcode: en
 status: true
 dependencies:
@@ -93,6 +93,7 @@ content:
       link: false
     third_party_settings: {  }
 hidden:
+  langcode: true
   links: true
   localgov_hide_related_topics: true
   search_api_excerpt: true

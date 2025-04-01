@@ -1,5 +1,5 @@
-uuid: cba4cf4d-3a9a-4daa-9aab-398b56e97475
-langcode: en
+uuid: f690cffb-c017-478a-b320-59fb9133fbe5
+langcode: en-gb
 status: true
 dependencies:
   module:
@@ -13,12 +13,12 @@ pattern: '[node:title]'
 selection_criteria:
   cf0a2bbc-3869-4912-a0e7-0f25ba4fcd1e:
     id: 'entity_bundle:node'
-    bundles:
-      localgov_directories_venue: localgov_directories_venue
     negate: false
+    uuid: cf0a2bbc-3869-4912-a0e7-0f25ba4fcd1e
     context_mapping:
       node: node
-    uuid: cf0a2bbc-3869-4912-a0e7-0f25ba4fcd1e
+    bundles:
+      localgov_directories_venue: localgov_directories_venue
 selection_logic: and
 weight: -5
 relationships: {  }

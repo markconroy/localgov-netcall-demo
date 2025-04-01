@@ -1,4 +1,4 @@
-uuid: 7f3627ab-d20d-4c0f-97b5-ba9c2aa7f2dd
+uuid: 2e3a7ad6-d4aa-445c-a025-e3b66b3d0112
 langcode: en
 status: true
 dependencies:
@@ -23,6 +23,7 @@ content:
     weight: 100
     region: content
 hidden:
+  langcode: true
   localgov_publication_content: true
   localgov_published_date: true
   localgov_updated_date: true

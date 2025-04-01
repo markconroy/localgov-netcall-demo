@@ -1,4 +1,4 @@
-uuid: 17baec87-22e3-4cc0-b82f-f7b485ef20d5
+uuid: 1fbcb086-edb8-4987-af55-244d1a1f79bf
 langcode: en
 status: true
 dependencies:
@@ -27,6 +27,7 @@ content:
     region: content
 hidden:
   body: true
+  langcode: true
   links: true
   localgov_guides_list_format: true
   localgov_guides_pages: true

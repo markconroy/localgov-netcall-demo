@@ -1,5 +1,5 @@
-uuid: 019603e4-10c5-481d-b56a-4dad38f1fe57
-langcode: en
+uuid: 688f3394-f171-4d59-906b-708b9b0d1a70
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -42,6 +42,7 @@ content:
         minZoom: 1
         maxZoom: 18
         zoomFiner: 0
+      weight: null
       icon:
         iconType: marker
         iconUrl: ''
@@ -76,6 +77,7 @@ content:
       geocoder:
         control: false
         settings:
+          popup: false
           position: topright
           input_size: 25
           providers:
@@ -97,9 +99,7 @@ content:
           min_terms: 4
           delay: 800
           zoom: 16
-          popup: false
           options: ''
-      weight: null
     third_party_settings: {  }
     weight: 0
     region: content
@@ -107,5 +107,6 @@ hidden:
   created: true
   external_id: true
   geo_file: true
+  langcode: true
   status: true
   uid: true

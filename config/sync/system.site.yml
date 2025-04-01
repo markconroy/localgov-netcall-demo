@@ -1,14 +1,14 @@
 _core:
   default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
-langcode: en
-uuid: 5b8485b2-25f2-486f-be29-f360ca20f91b
-name: 'Drush Site-Install'
-mail: admin@example.com
+langcode: en-gb
+uuid: 28451953-27f8-4762-921d-27556b56ad19
+name: 'LGD Netcall'
+mail: mark@mark.ie
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /localgov-drupal-demo
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: en-gb

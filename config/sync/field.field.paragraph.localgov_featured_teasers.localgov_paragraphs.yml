@@ -1,5 +1,5 @@
-uuid: 6ac32be1-1b94-41cb-8245-df78f9fdcb74
-langcode: en
+uuid: bb36b8db-9568-4b50-bbf3-4cf4bc132f0c
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -23,9 +23,9 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
     target_bundles:
       localgov_featured_teaser: localgov_featured_teaser
+    negate: 0
     target_bundles_drag_drop:
       from_library:
         weight: 28
@@ -55,8 +55,8 @@ settings:
         weight: 36
         enabled: false
       localgov_featured_teaser:
-        enabled: true
         weight: 37
+        enabled: true
       localgov_featured_teasers:
         weight: 38
         enabled: false

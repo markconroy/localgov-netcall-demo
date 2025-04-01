@@ -1,5 +1,5 @@
-uuid: f715a6d0-3fce-4963-9c86-22a4ba4f5639
-langcode: en
+uuid: d4d76c07-d140-44e8-9806-dc924ec7bffa
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -17,13 +17,15 @@ bundle: localgov_key_facts
 mode: default
 content:
   localgov_heading_level:
+    type: options_select
     weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
   localgov_paragraphs:
+    type: paragraphs
     weight: 2
+    region: content
     settings:
       title: 'Key fact'
       title_plural: 'Key facts'
@@ -39,16 +41,14 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
-    type: paragraphs
-    region: content
   localgov_title:
+    type: string_textfield
     weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
 hidden:
   created: true
   status: true

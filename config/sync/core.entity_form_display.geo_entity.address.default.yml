@@ -1,5 +1,5 @@
-uuid: acf76143-66a4-4dcd-8dfa-cfbddf197276
-langcode: en
+uuid: b6e1637e-ed77-49dc-9d4f-c66729a1b0d6
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -32,6 +32,13 @@ content:
     weight: 5
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   location:
     type: leaflet_widget_default
@@ -71,17 +78,18 @@ content:
       reset_map:
         control: false
         options: '{"position":"topleft","title":"Reset View"}'
-      locate:
-        control: false
-        options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Locate my position"}}'
-        automatic: false
       fullscreen:
         control: false
         options: '{"position":"topleft","pseudoFullscreen":false}'
       path: '{"color":"#3388ff","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2","radius":"6"}'
+      locate:
+        control: false
+        options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Locate my position"}}'
+        automatic: false
       geocoder:
         control: false
         settings:
+          popup: false
           position: topright
           input_size: 20
           providers:
@@ -103,7 +111,6 @@ content:
           min_terms: 4
           delay: 800
           zoom: 16
-          popup: false
           options: ''
       geometry_validation: 0
       multiple_map: false

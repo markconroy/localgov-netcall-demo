@@ -1,5 +1,5 @@
-uuid: 53c73fdc-07be-4f19-b66d-f4dafd9a4604
-langcode: en
+uuid: 8fb5047b-78a5-43b4-ae30-e38b31070b1b
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -26,32 +26,33 @@ bundle: localgov_news_article
 mode: teaser
 content:
   body:
-    label: hidden
     type: text_summary_or_trimmed
-    weight: 1
+    label: hidden
     settings:
       trim_length: 600
     third_party_settings: {  }
+    weight: 1
     region: content
   field_media_image:
     type: entity_reference_entity_view
-    weight: 0
-    region: content
     label: hidden
     settings:
       view_mode: localgov_newsroom_teaser
       link: false
     third_party_settings: {  }
+    weight: 0
+    region: content
   localgov_news_date:
     type: datetime_custom
-    weight: 2
-    region: content
     label: hidden
     settings:
       timezone_override: ''
       date_format: 'j F Y'
     third_party_settings: {  }
+    weight: 2
+    region: content
 hidden:
+  langcode: true
   links: true
   localgov_news_categories: true
   localgov_news_related: true

@@ -1,5 +1,5 @@
-uuid: 39f8b7a5-95da-4034-9e17-b8229d165b59
-langcode: en
+uuid: 8fc25a50-8ed6-44c1-9c20-5e2d92e71530
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -80,6 +80,13 @@ content:
     weight: 3
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   localgov_services_navigation_children:
     weight: 0

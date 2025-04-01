@@ -1,5 +1,5 @@
-uuid: c10b3d07-4c4b-41c4-b803-04c9e9c0b205
-langcode: en
+uuid: cabf5e99-3fd2-4aa1-a837-126e2d3911e1
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -50,9 +50,9 @@ content:
       popup: false
       popup_content: ''
       leaflet_popup:
+        options: '{"maxWidth":"300","minWidth":"50","autoPan":true}'
         control: '0'
         content: ''
-        options: '{"maxWidth":"300","minWidth":"50","autoPan":true}'
       map_position:
         force: false
         center:
@@ -99,6 +99,7 @@ content:
       geocoder:
         control: false
         settings:
+          popup: false
           position: topright
           input_size: 25
           providers:
@@ -108,7 +109,6 @@ content:
           min_terms: 4
           delay: 800
           zoom: 16
-          popup: false
           options: ''
     third_party_settings: {  }
     weight: 0
@@ -123,6 +123,7 @@ content:
 hidden:
   created: true
   external_id: true
+  langcode: true
   search_api_excerpt: true
   status: true
   uid: true

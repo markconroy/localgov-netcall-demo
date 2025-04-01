@@ -1,5 +1,5 @@
-uuid: cbaca7d9-976b-4f2c-b2ee-c96eedcf97e5
-langcode: en
+uuid: 641c1619-39f0-4603-a5bc-cf1314626e8d
+langcode: en-gb
 status: true
 dependencies:
   module:
@@ -16,12 +16,12 @@ pattern: '[node:localgov_newsroom:entity:url:relative]/[node:localgov_news_date:
 selection_criteria:
   fa93e7c4-4c6f-4ed1-988b-ce660e1d6292:
     id: 'entity_bundle:node'
-    bundles:
-      localgov_news_article: localgov_news_article
     negate: false
+    uuid: fa93e7c4-4c6f-4ed1-988b-ce660e1d6292
     context_mapping:
       node: node
-    uuid: fa93e7c4-4c6f-4ed1-988b-ce660e1d6292
+    bundles:
+      localgov_news_article: localgov_news_article
 selection_logic: and
 weight: -5
 relationships: {  }

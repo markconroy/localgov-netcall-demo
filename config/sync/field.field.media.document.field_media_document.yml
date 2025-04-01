@@ -1,5 +1,5 @@
-uuid: 96acf15a-a7a6-4bf3-9d35-50a21901e2d2
-langcode: en
+uuid: c7cc80fe-fa10-4ad4-aa3b-7b865df9e968
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -23,10 +23,10 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
+  handler: 'default:file'
+  handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'txt rtf doc docx ppt pptx xls xlsx pdf odf odg odp ods odt fodt fods fodp fodg key numbers pages csv'
   max_filesize: ''
-  handler: 'default:file'
-  handler_settings: {  }
   description_field: false
 field_type: file

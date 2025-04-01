@@ -1,5 +1,5 @@
-uuid: c25d41d1-62b2-4cc5-a365-6cf3acabf6ab
-langcode: en
+uuid: e61c9b4e-7969-4069-88e9-feae662451e2
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -79,6 +79,7 @@ display:
         type: mini
         options:
           offset: 0
+          pagination_heading_level: h4
           items_per_page: 10
           total_pages: null
           id: 0
@@ -93,7 +94,6 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:

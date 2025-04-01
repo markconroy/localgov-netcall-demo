@@ -1,4 +1,4 @@
-uuid: 8f88113e-4b63-4a0f-bbcf-4657c8032628
+uuid: 9d23214a-5555-4195-a21a-809f9e1c7b1a
 langcode: en
 status: true
 dependencies:
@@ -37,6 +37,7 @@ content:
     weight: 1
     region: content
 hidden:
+  langcode: true
   links: true
   localgov_directory_channel_types: true
   localgov_directory_facets: true

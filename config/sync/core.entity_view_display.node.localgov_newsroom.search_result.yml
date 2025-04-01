@@ -1,4 +1,4 @@
-uuid: dc9ab5e9-4787-45f7-b6ca-cad5350756e7
+uuid: fcd08b17-6eb6-4c63-99cd-980fb17af52b
 langcode: en
 status: true
 dependencies:
@@ -25,6 +25,7 @@ content:
     region: content
 hidden:
   content_moderation_control: true
+  langcode: true
   links: true
   localgov_news_facets: true
   localgov_news_search: true

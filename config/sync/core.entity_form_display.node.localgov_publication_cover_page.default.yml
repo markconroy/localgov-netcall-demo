@@ -1,5 +1,5 @@
-uuid: 7b369e03-e184-40a2-8dad-9fbd1631bbf4
-langcode: en
+uuid: a5f455c3-a13a-48f7-b551-04f7c496aae7
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -97,6 +97,13 @@ content:
     weight: 2
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   localgov_documents:
     type: media_library_widget

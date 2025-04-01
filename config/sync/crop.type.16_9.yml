@@ -1,11 +1,11 @@
-uuid: 5a720d7c-4773-489e-aabb-f330f9c8d2d8
-langcode: en
+uuid: 2425b434-e9d3-40df-a39e-6acc224ae928
+langcode: en-gb
 status: true
 dependencies: {  }
 _core:
   default_config_hash: mCgzXhONdVbTa12rFiyl09O1cJXfPYgP9RC0kBsh270
-id: '16_9'
 label: '16:9'
+id: '16_9'
 description: ''
 aspect_ratio: '16:9'
 soft_limit_width: null

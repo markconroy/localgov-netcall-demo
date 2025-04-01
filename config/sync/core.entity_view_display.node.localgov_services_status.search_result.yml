@@ -1,4 +1,4 @@
-uuid: f233402a-0c01-431b-a2e9-de75f1d2f6d2
+uuid: 7423339b-413f-471f-b43a-45edddd32cad
 langcode: en
 status: true
 dependencies:
@@ -27,6 +27,7 @@ content:
     region: content
 hidden:
   body: true
+  langcode: true
   links: true
   localgov_service_status: true
   localgov_service_status_on_landi: true

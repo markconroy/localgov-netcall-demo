@@ -1,4 +1,4 @@
-uuid: c3aa612f-4132-4429-ad07-ace32e89b5f1
+uuid: e36b0d15-c387-477e-b9a7-6f507620c0f4
 langcode: en
 status: true
 dependencies:
@@ -28,6 +28,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  langcode: true
   links: true
   localgov_service_status: true
   localgov_service_status_on_landi: true

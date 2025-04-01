@@ -1,5 +1,5 @@
-uuid: 4cc54af0-7600-422b-85c1-c2f46d681e5f
-langcode: en
+uuid: 44ffcd3f-05fe-4e81-bd41-2b38f5c8a25a
+langcode: en-gb
 status: true
 dependencies:
   module:
@@ -13,12 +13,12 @@ pattern: 'step-by-step/[node:title]'
 selection_criteria:
   b7733dd9-c007-410f-94cb-896af2a94006:
     id: 'entity_bundle:node'
-    bundles:
-      localgov_step_by_step_overview: localgov_step_by_step_overview
     negate: false
+    uuid: b7733dd9-c007-410f-94cb-896af2a94006
     context_mapping:
       node: node
-    uuid: b7733dd9-c007-410f-94cb-896af2a94006
+    bundles:
+      localgov_step_by_step_overview: localgov_step_by_step_overview
 selection_logic: and
 weight: -5
 relationships: {  }

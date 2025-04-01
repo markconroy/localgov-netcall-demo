@@ -1,5 +1,5 @@
-uuid: 1ba90abe-bcf1-47c1-8da9-ed1191a6797c
-langcode: en
+uuid: 1910ae8e-616a-44f3-8124-505dd8e23492
+langcode: en-gb
 status: true
 dependencies:
   config:
@@ -28,7 +28,7 @@ dependencies:
     - office_hours
     - telephone
 _core:
-  default_config_hash: ZkU7TrR8-9V8KzukB88JvjwwFFIaOxwVaklt-r7B1Go
+  default_config_hash: oaZRpNyWuwDfCHS-yvbAcShlaQoI-3qAYHHVDHJCwLg
 id: paragraph.localgov_contact.default
 targetEntityType: paragraph
 bundle: localgov_contact
